@@ -1,0 +1,19 @@
+=== Logistic Regression ===
+              precision    recall  f1-score   support
+
+      No CKD       1.00      1.00      1.00        38
+         CKD       1.00      1.00      1.00        62
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+      No CKD       0.97      1.00      0.99        38
+         CKD       1.00      0.98      0.99        62
+
+    accuracy                           0.99       100
+   macro avg       0.99      0.99      0.99       100
+weighted avg       0.99      0.99      0.99       100
